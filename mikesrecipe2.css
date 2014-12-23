@@ -1,0 +1,197 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body, html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+body  {
+  background-color: #FFCAAE;
+}
+
+p {
+  display: inline;
+}
+
+#header {
+  height: 10%;
+  width: 100%;
+  background-color: #6BB256; }
+  #header ul {
+    list-style-type: none; }
+    #header ul a {
+      text-decoration: none; }
+      #header ul a:hover {
+        transform: scale(1.3);
+        color: whitesmoke;  }
+
+
+#menu {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center; }
+
+#menu ul {
+  height: auto; }
+
+#menu ul li {
+  display: inline-block;
+  padding: 20px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 10px;
+  }
+
+#rightbar {
+  height: 185%;
+  width: 15%;
+  background-color: #7272B2;
+  float: right; }
+
+#leftbar {
+  height: 185%;
+  width: 15%;
+  background-color: #7272B2;
+  float: left; }
+
+#intro {
+  width: 100%;
+  height: 135px;
+  text-align: justify; }
+  #intro h1 {
+    text-align: center;
+    margin-top: -2em; }
+    #intro p {
+      margin-top: 10px;
+      text-align: center;
+      max-width: 800px;
+      margin-left: 250px;
+      display: block}
+
+#ingtop {
+  width: 100%;
+  height: 290px; }
+  #ingtop img {
+    height: 90%;
+    width: 25%;
+    float: left;
+    margin-left: 15px;
+    border: 4px green solid;
+    margin-top: 35px;}
+    #ingtop img h2 {
+      text-align: center; }
+
+.lists {
+  float: right;
+  padding-right: 70px;
+  padding-top: 30px;
+  margin-left: 3px;
+  list-style-type: none;}
+  .lists li {
+    padding: 4px; }
+
+#content {
+  width: 70%;
+  height: 100%;
+  margin: auto; }
+
+#directionscont {
+  height: 964px;
+  width: 100%;
+  margin-top: 100px; }
+
+.directions {
+  text-decoration: underline;
+  position: absolute;
+  margin-left: 630px;
+  margin-top: -15px; }
+
+.step {
+  width: 100%;
+  height: 14%;
+  margin-top: 46px;
+  }
+
+.dirpic {
+  height: 65%;
+  width: 18%;
+  margin-left: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px;
+  }
+
+.text {
+  float: right;
+  padding-left: 300px;
+  position: relative;
+  bottom: 80px;
+}
+
+.smalltext  {
+  padding-left: 45px;
+  position: relative;
+  bottom: 60px;
+}
+
+
+.showButton,
+.hideButton {
+  width: 75px;
+  height: 25px;
+  border: solid;
+  border-width: 5px;
+  background: #3498db;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 6px;
+  position: relative;
+}
+
+.showButton {
+  position: relative;
+  top: 26.5em;
+  left: 27.875em;
+}
+
+
+
+.hideButton {
+  position: relative;
+  left: 60em;
+  top: 24.5em;
+}
+
+.colorHighlight {
+  color : blue;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-left: 40px solid red;
+  border-bottom: 30px solid transparent;
+  margin-left: 15em;
+  margin-top: 32em;
+}
+
+.togglesteps  {
+  width: 12em;
+  height: 4em;
+  background-color: blue;
+  border-radius: 1em;
+  margin-top: 24em;
+  margin-left: 3em;
+  position: fixed;
+  text-align: center;
+}
+
+.down {
+  margin-bottom: 11em;
+}
+
+.steptext {
+}
